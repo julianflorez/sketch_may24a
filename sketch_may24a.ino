@@ -9,4 +9,8 @@ void loop() {
   delay(500);
   digitalWrite(2,LOW);
   delay(1000);
+  digitalWrite(2,HIGH);
+  delay(200);
+  digitalWrite(2,LOW);
+  delay(300);
 }
